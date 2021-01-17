@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #54e346;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header {
+    font-size: 8rem;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.joke-button-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.joke-button {
+    display: block;
+    margin: auto auto;
+    font-family: 'Kanit', sans-serif;
+    color: #ffce89;
+    background-color: #fffaa4;
+    border-radius: 10px;
+    width:  200px;
+    height: 62px;
+    font-size: 2rem;
+    border-style: none;
+    transition: 0.2s;
+}
+
+.joke-button:hover {
+    background-color: #fff542;
+    color: white;
+    width: 210px;
+    height: 68px;
+}
+
+.joke-button:focus {
+    background-color: #fff107;
+    outline-style: none;
+    width: 213px;
+    height: 70px;
+}
+
+.joke-container {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.joke {
+    font-size: 3rem;
+    color: white;
+    margin: 30px 150px;
+}
+
+.fields-joke-container {
+    margin: 30px auto;
+}
+
+.catagory-heading {
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3rem;
+    color: #00DCFF;
+    text-shadow: 1px 1px black;
+}
+
+.flag-checkbox {
+    margin-left: 5px;
+    zoom: 1.5;
+}
+
+.label-flag-checkbox {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 5px;
+    text-shadow: 1px 1px grey;
+}
